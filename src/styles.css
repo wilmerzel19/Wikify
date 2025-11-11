@@ -23,20 +23,22 @@ body {
 }
 
 .card {
+    width: 320px;
+    height: 200px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 15px;
     padding: 16px;
     background: rgba(255, 255, 255, 0.03);
     border-radius: 8px;
 }
 
 input {
-    padding: 8px;
+    padding: 10px;
     border-radius: 6px;
     border: 1px solid rgba(255, 255, 255, 0.06);
     background: transparent;
-    color: #fff;
+    color: #b50d0d;
 }
 
 button {
@@ -78,6 +80,8 @@ button {
     padding: 10px;
     background: rgba(255, 255, 255, 0.03);
     border-radius: 8px;
+    cursor: pointer;
+    
 }
 
 .song-card img {
@@ -125,3 +129,16 @@ button {
 
 
 }
+
+.logo {
+    width: 150px;
+
+}   
+
+
+
+
+
+
+
+

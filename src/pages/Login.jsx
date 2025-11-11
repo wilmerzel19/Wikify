@@ -21,6 +21,9 @@ export default function Login() {
 
   return (
     <div className="center">
+      <img src="src/assets/img/logo1.png" alt="Logo" className="logo" />
+      
+      
       <h2>Iniciar sesión</h2>
       {err && <div className="error">{err}</div>}
       <form onSubmit={handleSubmit} className="card">
