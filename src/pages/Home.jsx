@@ -33,7 +33,7 @@ export default function Home() {
     <div className="app">
       <header className="header">
         <div>
-          <h1>🎶Wikify</h1>
+          <h1>🎶Wikify🎶</h1>
           <p className="nombre">Hola, {currentUser?.displayName || currentUser?.email}</p>
         </div>
         <div>
